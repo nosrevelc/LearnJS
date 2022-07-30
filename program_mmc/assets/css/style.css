@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.colunas{
+  display:flex;
+  gap: 100px;
+}
+p{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+
+}
+.alertaCerto{
+  background-color: chartreuse;
+  color: darkgreen;
+
+}
+.alertaAtencao{
+  background-color: rgb(236, 202, 9);
+  color: rgb(184, 83, 17);
+
+}
+.alertaAtencao1{
+  background-color: rgb(236, 156, 9);
+  color: rgb(100, 12, 0);
+
+}
+.alertaAtencao2{
+  background-color: #f1a363;
+  color: rgb(255, 8, 0);
+
+}
+.alertaErro{
+  background-color: rgb(231, 119, 99);
+  color: rgb(100, 0, 0);
+  
+}
+
+.msg p{
+  text-align: center;
+  font-weight: 600;
+  border: var(--primary-color) 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
