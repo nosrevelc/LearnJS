@@ -19,13 +19,13 @@ function verifica(evento) {
     } else if (imc >= 18.51 && imc <= 24.99) {
         displayMsg = `<p class="alertaCerto">${msgImc}O seu peso se encontra dentro da normalidade</p>`;
     } else if (imc >= 25 && imc <= 29.99) {
-        displayMsg = `<p class="alertaAtencao">${msgImc} Você demonstra um quadro de Sobrepeso</p>`;
+        displayMsg = `<p class="alertaAtencao">${msgImc} Seu IMC demonstra um quadro de Sobrepeso</p>`;
     } else if (imc >= 30 && imc <= 34.99) {
-        displayMsg = `<p class="alertaAtencao1">${msgImc} Você demonstra um quadro de Obesidade Grau 1</p>`;
+        displayMsg = `<p class="alertaAtencao1">${msgImc} Seu IMC demonstra um quadro de Obesidade Grau 1</p>`;
     } else if (imc >= 35 && imc <= 39.99) {
-        displayMsg = `<p class="alertaAtencao2">${msgImc} Você demonstra um quadro de Obesidade Grau 2</p>`;
+        displayMsg = `<p class="alertaAtencao2">${msgImc} Seu IMC demonstra um quadro de Obesidade Grau 2</p>`;
     } else if (imc >= 40) {
-        displayMsg = `<p class="alertaAtencao2">${msgImc} Você demonstra um quadro de Obesidade Grau 3</p>`;
+        displayMsg = `<p class="alertaAtencao2">${msgImc} Seu IMC demonstra um quadro de Obesidade Grau 3</p>`;
     } else {
         displayMsg = "";
     }
